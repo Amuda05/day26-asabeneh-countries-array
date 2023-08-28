@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualize the countries array as follows</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>WORLD COUNTRIES LIST</h1>
+            <p>Total Number of countries: 193</p>
+            <div class="alldes">
+                <p id="describeKey"></p>
+                <span id="letter"></span>
+                <span id="are"></span>
+                <span id="length"></span>
+            </div>
+        </header>
+        <div class="clickables">
+            <button id="startWord">STARTING WORD</button>
+            <button id="anyWord">SEARCH WITH ANY WORD</button>
+            <div class="arrow">
+                <img src="./arrow-down-fill.png" alt="" id="downup">
+                <div class="az">
+                    <p>A</p>
+                    <p>Z</p>
+                </div>
+            </div>
+        </div>
+        <div class="inputs">
+            <input type="text" placeholder="Search country ..."><img src="./search-line.png" alt="">
+        </div>
+    </main>
+
+    <section id="countries"></section>
+    <script src="/app.js"></script>
+</body>
+</html>
